@@ -35,7 +35,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: testreport1
-          path: target/surefire-reports
+          path: build/test-results/test
           
           
       
